@@ -1,0 +1,23 @@
+.game {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.board-row {
+  height: 40px;
+}
+.square {
+  background-color: #fff;
+  border: 1px solid #333;
+  height: 100%;
+  width: 40px;
+  margin: 0;
+  user-select: none;
+}
+
+.square:active {
+  border-style: inset;
+}
